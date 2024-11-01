@@ -312,7 +312,7 @@ oled_inittab:
   .byte $ff ; STOP
 
 oled_screen:
-  INCBIN "./code/badapple.bin"
+  INCBIN "badapple.bin"
     
     
     ORG $FFFA
