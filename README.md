@@ -1,5 +1,5 @@
 # MOS-6502-Badapple
-For initializing and uploading data to an OLED using a WS5C22 VIA with I2C. Assembled with dasm. Code uploaded to processor using [byoc debugger](https://github.com/SuperTails/byobc-debugger)\
+For initializing and uploading data to an OLED using a WS5C22 VIA with I2C. Assembled with dasm.\ Code uploaded to processor using [byoc debugger](https://github.com/SuperTails/byobc-debugger)\
 This program draws frames from badapple.bin to an OLED. Our computer only has a max memory of ~5kb, which severly limits the number of frames capable of being stored, so I skip every other frame\
 to save space and speed up the animation.
 
